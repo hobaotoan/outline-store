@@ -154,12 +154,10 @@ function generateProductInfo() {
     `;
     
     // Make sure the button has the correct ID
-    // const sizeButtonHTML = `
-    //     <button id="sizeGuideBtn" class="size-guide-btn">
-    //         <i class="fas fa-ruler"></i>
-    //         Bảng Size
-    //     </button>
-    // `;
+    const sizeButtonHTML = `
+        <button id="sizeGuideBtn" class="size-guide-btn">
+        </button>
+    `;
     
     productInfoSection.innerHTML = `
         <div class="product-info-header">
